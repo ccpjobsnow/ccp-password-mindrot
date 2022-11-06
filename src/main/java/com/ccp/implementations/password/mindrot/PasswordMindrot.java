@@ -1,4 +1,4 @@
-package com.ccp.implementations.bcript.mindrot;
+package com.ccp.implementations.password.mindrot;
 
 import org.mindrot.jbcrypt.BCrypt;
 
