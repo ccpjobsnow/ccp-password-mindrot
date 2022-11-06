@@ -2,7 +2,7 @@ package com.ccp.implementations.password.mindrot;
 
 import org.mindrot.jbcrypt.BCrypt;
 
-import com.ccp.especifications.bcript.CcpPasswordHandler;
+import com.ccp.especifications.password.CcpPasswordHandler;
 
 class PasswordMindrot implements CcpPasswordHandler {
 
