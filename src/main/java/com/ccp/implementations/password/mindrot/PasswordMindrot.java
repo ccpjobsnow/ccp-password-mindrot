@@ -7,8 +7,8 @@ import com.ccp.especifications.password.CcpPasswordHandler;
 class PasswordMindrot implements CcpPasswordHandler {
 
 	@Override
-	public boolean matches(String hash, String password) {
-		boolean checkpw = BCrypt.checkpw(hash, password);
+	public boolean matches(String password, String hash) {
+		boolean checkpw = BCrypt.checkpw(password, hash);
 		return 	checkpw;
 
 	}
