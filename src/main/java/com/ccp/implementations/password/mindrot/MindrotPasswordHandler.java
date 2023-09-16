@@ -4,7 +4,7 @@ import org.mindrot.jbcrypt.BCrypt;
 
 import com.ccp.especifications.password.CcpPasswordHandler;
 
-class PasswordMindrot implements CcpPasswordHandler {
+class MindrotPasswordHandler implements CcpPasswordHandler {
 
 	@Override
 	public boolean matches(String password, String hash) {
