@@ -14,7 +14,7 @@ class MindrotPasswordHandler implements CcpPasswordHandler {
 	}
 
 	
-	public String getPasswordHash(String password) {
+	public String getHash(String password) {
 		String gensalt = BCrypt.gensalt(12);
 		String hashpw = BCrypt.hashpw(password, gensalt);
 		return hashpw;
